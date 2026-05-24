@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { MdAddCall, MdOutlineMessage, MdDeleteOutline } from 'react-icons/md';
-import { FaVideo } from 'react-icons/fa';
+import { MdDeleteOutline } from 'react-icons/md';
 import { HiChevronDown } from 'react-icons/hi2';
 
 const Timeline = () => {
@@ -15,11 +14,11 @@ const Timeline = () => {
     const getIcon = (type) => {
         switch (type) {
             case 'call':
-                return <MdAddCall className="text-2xl text-gray-600" />;
+                return <img src="/call.png" alt="Call icon" className="w-6 h-6 object-contain" />;
             case 'text':
-                return <MdOutlineMessage className="text-2xl text-gray-600" />;
+                return <img src="/text.png" alt="Text icon" className="w-6 h-6 object-contain" />;
             case 'video':
-                return <FaVideo className="text-2xl text-gray-600" />;
+                return <img src="/video.png" alt="Video icon" className="w-6 h-6 object-contain" />;
             default:
                 return null;
         }
