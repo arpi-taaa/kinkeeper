@@ -51,7 +51,7 @@ const Footer = () => {
 
                 <div className="w-full border-t border-[#2d5a45] pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-400">
                     <div>
-                        &copy; {new Date().getFullYear()} KeenKeeper. All rights reserved.
+                        &copy; 2026 KeenKeeper. All rights reserved.
                     </div>
                     <div className="flex items-center gap-6">
                         <Link to="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
