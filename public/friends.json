@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Ariana Mitchell",
+    "picture": "https://picsum.photos/id/1011/200/200",
+    "email": "ariana.mitchell@example.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["work", "marketing"],
+    "bio": "Worked together on multiple client campaigns and team projects.",
+    "goal": 7,
+    "next_due_date": "2025-06-01"
+  },
+  {
+    "id": 2,
+    "name": "Daniel Foster",
+    "picture": "https://picsum.photos/id/1005/200/200",
+    "email": "daniel.foster@example.com",
+    "days_since_contact": 15,
+    "status": "almost due",
+    "tags": ["university", "roommate"],
+    "bio": "Former university roommate who now works in software engineering.",
+    "goal": 21,
+    "next_due_date": "2025-06-05"
+  },
+  {
+    "id": 3,
+    "name": "Sophia Turner",
+    "picture": "https://picsum.photos/id/1027/200/200",
+    "email": "sophia.turner@example.com",
+    "days_since_contact": 34,
+    "status": "overdue",
+    "tags": ["family", "cousin"],
+    "bio": "Cousin living abroad who visits every summer.",
+    "goal": 30,
+    "next_due_date": "2025-05-20"
+  },
+  {
+    "id": 4,
+    "name": "Ethan Walker",
+    "picture": "https://picsum.photos/id/1012/200/200",
+    "email": "ethan.walker@example.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["school", "basketball"],
+    "bio": "High school teammate and close basketball friend.",
+    "goal": 10,
+    "next_due_date": "2025-06-08"
+  },
+  {
+    "id": 5,
+    "name": "Mia Collins",
+    "picture": "https://picsum.photos/id/1025/200/200",
+    "email": "mia.collins@example.com",
+    "days_since_contact": 18,
+    "status": "almost due",
+    "tags": ["childhood", "neighbor"],
+    "bio": "Childhood neighbor who recently moved to another city.",
+    "goal": 20,
+    "next_due_date": "2025-05-29"
+  },
+  {
+    "id": 6,
+    "name": "Noah Bennett",
+    "picture": "https://picsum.photos/id/1001/200/200",
+    "email": "noah.bennett@example.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["work", "manager"],
+    "bio": "Former manager who mentored me during my internship.",
+    "goal": 30,
+    "next_due_date": "2025-05-15"
+  },
+  {
+    "id": 7,
+    "name": "Charlotte Reed",
+    "picture": "https://picsum.photos/id/1016/200/200",
+    "email": "charlotte.reed@example.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": ["family", "aunt"],
+    "bio": "Aunt who enjoys gardening and baking during weekends.",
+    "goal": 14,
+    "next_due_date": "2025-06-02"
+  },
+  {
+    "id": 8,
+    "name": "Liam Brooks",
+    "picture": "https://picsum.photos/id/1035/200/200",
+    "email": "liam.brooks@example.com",
+    "days_since_contact": 20,
+    "status": "almost due",
+    "tags": ["university", "study group"],
+    "bio": "Study partner from university computer science classes.",
+    "goal": 21,
+    "next_due_date": "2025-05-30"
+  },
+  {
+    "id": 9,
+    "name": "Emily Carter",
+    "picture": "https://picsum.photos/id/1021/200/200",
+    "email": "emily.carter@example.com",
+    "days_since_contact": 60,
+    "status": "overdue",
+    "tags": ["school", "music club"],
+    "bio": "Friend from school music club who plays piano.",
+    "goal": 30,
+    "next_due_date": "2025-05-10"
+  },
+  {
+    "id": 10,
+    "name": "James Peterson",
+    "picture": "https://picsum.photos/id/1006/200/200",
+    "email": "james.peterson@example.com",
+    "days_since_contact": 4,
+    "status": "on-track",
+    "tags": ["childhood", "gaming"],
+    "bio": "Childhood friend who still joins online gaming sessions.",
+    "goal": 7,
+    "next_due_date": "2025-06-03"
+  }
+]
