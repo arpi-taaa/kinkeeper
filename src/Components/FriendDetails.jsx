@@ -158,7 +158,7 @@ const FriendDetails = () => {
                                     onClick={() => handleCheckIn('call')}
                                     className="bg-[#F8FAFC] border border-gray-100 p-4 rounded-xl flex flex-col items-center justify-center gap-2 transition-all duration-200 group shadow-sm"
                                 >
-                                    <MdAddCall className="text-2xl text-gray-600 group-hover:text-[#0036d7] transition-colors duration-200" />
+                                    <img src="/call.png" className='w-6' alt="" />
                                     <span className="text-xs font-medium text-gray-600 group-hover:text-[#0036d7] transition-colors duration-200">Call</span>
                                 </button>
 
@@ -166,7 +166,7 @@ const FriendDetails = () => {
                                     onClick={() => handleCheckIn('text')}
                                     className="bg-[#F8FAFC] border border-gray-100 p-4 rounded-xl flex flex-col items-center justify-center gap-2 transition-all duration-200 group shadow-sm"
                                 >
-                                    <MdOutlineMessage className="text-2xl text-gray-600 group-hover:text-[#0036d7] transition-colors duration-200" />
+                                    <img src="/text.png" className='w-6' alt="" />
                                     <span className="text-xs font-medium text-gray-600 group-hover:text-[#0036d7] transition-colors duration-200">Text</span>
                                 </button>
 
@@ -174,7 +174,7 @@ const FriendDetails = () => {
                                     onClick={() => handleCheckIn('video')}
                                     className="bg-[#F8FAFC] border border-gray-100 p-4 rounded-xl flex flex-col items-center justify-center gap-2 transition-all duration-200 group shadow-sm"
                                 >
-                                    <FaVideo className="text-2xl text-gray-600 group-hover:text-[#0036d7] transition-colors duration-200" />
+                                    <img src="/video.png" className='w-6' alt="" />
                                     <span className="text-xs font-medium text-gray-600 group-hover:text-[#0036d7] transition-colors duration-200">Video</span>
                                 </button>
 
