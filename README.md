@@ -1,16 +1,32 @@
-# React + Vite
+# KeenKeeper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+KeenKeeper is a personal relationship management and check-in tracker dashboard. It serves as your personal shelf of meaningful connections, allowing you to browse, tend, and nurture the relationships that matter most by tracking interactions over time.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **Interactive Friends Dashboard:** View all your tracked relationships in a clean, responsive grid layout.
+* **Dynamic Relationship Health Metrics:** Instantly see connection status labels (`on-track`, `almost due`, `overdue`) along with custom tracking metrics.
+* **Quick Check-Ins:** Instantly log interactions such as **Calls**, **Texts**, or **Video Calls** directly from a friend's profile.
+* **Persistent Interaction Timeline:** A centralized activity stream with clean custom interaction icons, filtering capabilities, and a global history-clearing mechanism.
+* **Friendship Analytics:** Beautiful, minimalist donut pie chart breakdowns of communication categories built with Recharts.
+* **Graceful State Management:** Clean loading experiences powered by synchronized grid spinners during asymmetric asynchronous operations.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Framework:** React (Vite)
+* **Styling:** Tailwind CSS + DaisyUI components
+* **Icons:** React Icons (`react-icons/md`, `react-icons/hi2`, `react-icons/fa6`) & Custom local assets
+* **Charts:** Recharts
+* **Notifications:** React Hot Toast
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Interactive Friends Dashboard:** View all your tracked relationships in a clean, responsive grid layout.
+* **Dynamic Relationship Health Metrics:** Instantly see connection status labels (`on-track`, `almost due`, `overdue`) along with custom tracking metrics.
+* **Quick Check-Ins:** Instantly log interactions such as **Calls**, **Texts**, or **Video Calls** directly from a friend's profile.
+* **Persistent Interaction Timeline:** A centralized activity stream with clean custom interaction icons, filtering capabilities, and a global history-clearing mechanism.
+* **Friendship Analytics:** Beautiful, minimalist donut pie chart breakdowns of communication categories built with Recharts.
+* **Graceful State Management:** Clean loading experiences powered by synchronized grid spinners during asymmetric asynchronous operations.
+* **Intelligent Search & Filter:** Quickly find specific connections using the built-in search functionality and toggle display modes dynamically.
+* **Snooze & Archive Mechanics:** Temporarily snooze check-in notifications for 2 weeks or archive old profiles to keep your primary circle focused and clean.
+* **Custom Responsive Navigation:** Seamlessly switch between Dashboard, Timeline, and Analytics screens with a sticky desktop navbar that optimizes smoothly for mobile breakpoints.
